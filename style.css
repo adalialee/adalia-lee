@@ -1,0 +1,335 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .navBar {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+  }
+  
+  .navBar a {
+    text-decoration: none; /* Remove underlines */
+  }
+  
+  .navBar a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  .homeButton {
+    border-radius: 35px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 2px #BAD9FF;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+  }
+  
+  .projectsButton {
+    border-radius: 35px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 2px #FFDCFB;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+  }
+  
+  .crochetButton {
+    border-radius: 35px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 2px #BAEEFF;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+  }
+  
+  .artButton {
+    border-radius: 35px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 2px #D9D2FF;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+  }
+  
+  .crochetButton {
+    border-radius: 35px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 2px #BAEEFF;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+  }
+  
+  .contactButton {
+    border-radius: 35px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 2px #FFF7B1;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .intro {
+    padding-top: 14%;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  #header {
+    color: #000;
+    font-family: Itim;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  #subheader {
+    color: #000;
+    font-family: Itim;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  
+  #bodyText {
+    color: #000;
+    font-family: Itim;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  #portrait {
+    width: 35%;
+    height: 35%;
+  }
+  
+  #topSquiggly {
+    margin-top: -200px;
+    z-index: -1;
+  }
+  
+  .projectsIntro {
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .projectsText {
+    text-align: center;
+  }
+  
+  #proj1 {
+    width: 45%;
+    height: 45%;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    margin-left: 8%;
+  }
+  
+  .projRight {
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  
+  .projRight2 {
+    margin-right: 8%;
+  }
+  
+  .projLeft {
+    margin-right: 8%;
+  }
+  
+  #proj2 {
+    height: 27.5%;
+    width: 27.5%;
+    margin-right: 8%;
+  }
+  
+  #projHead {
+    color: #000;
+    font-family: Kiwi Maru;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  #projDesc {
+    color: #000;
+    font-family: Kiwi Maru;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .graphics {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .graphics2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+  }
+  
+  .leftCol {
+    height: 50%;
+    width: 50%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rightCol {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #left {
+    height: 100%;
+    width: 100%;
+    margin-top: 8%;
+  }
+  
+  #middle {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 4%;
+    height: 84%;
+    width: 84%;
+  }
+  
+  .leftCol2 {
+    height: 30%;
+    width: 30%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rightCol2 {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #left2 {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #t {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #up {
+    height: 80%;
+    width: 80%;
+    margin-top: -8%;
+  }
+  
+  #text {
+    color: #000;
+    font-family: Itim;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  #artDesc {
+    color: #000;
+    font-family: Kiwi Maru;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  #pom {
+    margin-bottom: 19%;
+  }
+  
+  #sq {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+  }
+  
+  #topSquig {
+    margin-top: -8%;
+    z-index: -1;
+  }
