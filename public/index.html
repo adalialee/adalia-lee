@@ -1,43 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Itim">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kiwi+Maru">
+</head>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<body>
+  <nav class="navBar">
+    <a href="#home" class="homeButton">home</a>
+    <a href="#projectsS" class="projectsButton">projects</a>
+    <a href="#crochetS" class="crochetButton">crochet</a>
+    <a href="#artS" class="artButton">art</a>
+    <a href="#contactS" class="contactButton">contact</a>
+  </nav>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <section id="home">
+    <div class="intro">
+      <div class="introText">
+        <h1 id="header">Hi, I’m Adalia!</h1>
+        <p id="subheader">I study Computer Science and Design at Northeastern University, and I’m a UI/UX Designer.</p>
+        <p id ="bodyText">Outside of design, some of my favorite hobbies are crocheting, painting, going on hikes, runs, and long walks, cooking, baking, reading, and listening to audio books and music.</p>
+      </div>
+      <img src="assets/sparkle.svg">
+      <img src="assets/portrait.png" id="portrait">
+    </div>
+  
+    <img src="assets/top squiggly.svg" id="topSquig">
+  </section>
+
+  <section id="projectsS">
+    <div class="projectsIntro">
+      <h1 id="header" class="projectsText">My Projects</h1>
+      <p id="subheader" class="projectsText">Take a look at some of the tech-related projects I’ve made, and the skills I’ve developed along the way!</p>
+      </div>
+    </div>
+  
+    <img src="assets/squiggly1.svg" id="sq">
+    
+    <div class="project">
+      <img src="assets/project1.png" id="proj1">
+      <div class="projRight">
+        <p id="projHead">How to Increase Your Iron Intake (Website)</p>
+        <p id="projDesc">As my Experience and Interaction final project, I developed an educational website about how to increase iron intake, which identifies and addresses several target audience groups that are more likely to be iron-deficient. My website features multiple pages (I broke down the steps by page) and interactive animations to increase user engagement.</p>
+        <img src="assets/proj1Box.svg">
+      </div>
+    </div>
+  
+    <div class="project">
+      <div class="projLeft">
+        <p id="projHead">Cat. (App)</p>
+        <p id="projDesc">In collaboration with my Oasis NEU team, I built an app that promotes productivity with the incentive of caring for a virtual cat, where simulated health levels shift based on user-provided data about task completion. I designed several front-end and back-end features such as adding to and keeping track of a to-do list. This was my teammates and I's first time using Swift!</p>
+        <img src="assets/proj2Box.svg">
+      </div>
+      <img src="assets/project2.png" id="proj2">
+    </div>
+  
+    <div class="project">
+      <img src="assets/project3.png" id="proj2">
+      <div class="projRight2">
+        <p id="projHead">EcoKeen (App)</p>
+        <p id="projDesc">In high school, I developed a carbon footprint tracker application with a team from our Women in Tech Club to combat climate change in a more approachable manner. Our application generates data visualizations of a user's carbon footprint based on their energy usage, and features a personalized recommendation system for tips/alternatives to reduce their carbon footprints. I was involved with the wireframes, branding, business plan, coding, and presentation to judges for our Technovation Challenge entry.</p>
+        <img src="assets/proj3Box.svg">
+      </div>
+    </div>
+  </section>
+
+  <section id="artS">
+    <div class="projectsIntro">
+      <h1 id="header" class="projectsText">My Art</h1>
+      <p id="subheader" class="projectsText">Here's a handful of Adobe Illustrator graphics I designed based on my favorite Pinterest pictures! I've been making them since high school, when I was actively involved in the yearbook class.</p>
+      </div>
+    </div>
+  
+    <img src="assets/squiggly1.svg" id="sq">
+  
+    <div class="graphics">
+      <div class="leftCol">
+        <img src="assets/sunset road.png" id="left">
+      </div>
+  
+      <div class="rightCol">
+        <img src="assets/bike.png" id="left">
+        <img src="assets/flower girl.png" id="left">
+        <p id="artDesc">I’ve turned some of my designs (such as the top and bottom ones) into my phone and laptop wallpapers!</p>
+      </div>
+    </div>
+  
+    <img src="assets/window.png" id="middle">
+  
+    <div class="graphics">
+      <div class="leftCol2">
+        <img src="assets/pomegranate.png" id="pom">
+        <img src="assets/desk.png" id="left2">
+      </div>
+  
+      <div class="rightCol2">
+        <img src="assets/woman.png" id="t">
+      </div>
+    </div>
+  
+    <div class="graphics">
+      <div class="leftCol">
+        <img src="assets/city scene.png" id="left">
+        <img src="assets/macarons.png" id="left">
+        <img src="assets/duck.png" id="left">
+      </div>
+  
+      <div class="rightCol">
+        <img src="assets/flyer.png" id="left">
+        <p id="artDesc">I made this flyer for a fake event as a final project for one of my introductory design courses. I'm a huge fan of boba, so this is definitely an event I would enjoy!</p>
+        <img src="assets/aesthetic room.png" id="t">
+        <img src="assets/shoe.png" id="left">
+        <img src="assets/sunset train.png" id="left">
+        <p id="artDesc">You've probably noticed the ongoing theme of sunsets in my art by now! They're my favorite to design.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="crochetS">
+    <div class="projectsIntro">
+      <h1 id="header" class="projectsText">My Crocheted Collection!</h1>
+      <p id="subheader" class="projectsText">Crocheting is one of my favorite creative outlets. I’ve made a range of pieces, from stuffed animals to clothes to accessories. I also love sharing this hobby with others, so I’ve taught several friends how to crochet!</p>
+      </div>
+    </div>
+
+    <img src="assets/squiggly1.svg" id="sq">
+    
+    <div class="graphics2">
+      <div class="leftCol">
+        <img src="assets/hedgehog.png" id="left"> 
+        <img src="assets/hedDesc.svg" id="up">
+        <img src="assets/plant.png" id="left">
+        <img src="assets/frog.png" id="left">
+        <img src="assets/frogDesc.svg" id="up">
+        <img src="assets/leaves.png" id="left">
+      </div>
+  
+      <div class="rightCol">
+        <img src="assets/shirt.png" id="left">
+        <img src="assets/ducks.png" id="left">
+        <img src="assets/duckDesc.svg" id="up">
+        <img src="assets/band.png" id="left">
+        <img src="assets/beanie.png" id="left">
+        <img src="assets/beaDesc.svg" id="up">
+      </div>
+    </div>
+  </section>
+
+  <section id="contactS">
+    <div class="projectsIntro">
+      <h1 id="header">Let's get in touch!</h1>
+      <p id="subheader">LinkedIn: linkedin.com/in/adalia-lee</p>
+      <p id="subheader">Email: adalialee@gmail.com</p>
+      <p id="text">I’m always excited to meet, chat with, and learn about more people! :)</p>
+      </div>
+    </div>
+  </section>
+
+  <img src="assets/bottom.svg">
+  
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
 </html>
