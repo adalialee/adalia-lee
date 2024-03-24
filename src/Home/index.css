@@ -1,0 +1,36 @@
+.intro {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 160px;
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal;
+    align-items: center;
+}
+
+.pfp {
+    padding-right: 56px;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#intro-text {
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+#goal {
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}

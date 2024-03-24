@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Product Design",
+        "image": "timesheet.png",
+        "description": "Prototypes"
+    },
+    {
+        "title": "Software Development",
+        "image": "gui.png",
+        "description": "GUI, Websites, & Apps!"
+    },
+    {
+        "title": "Other Interests",
+        "image": "cardigan.png",
+        "description": "Crochet, Graphic Design, & More!"
+    }
+]

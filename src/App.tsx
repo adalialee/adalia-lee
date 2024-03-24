@@ -1,23 +1,23 @@
 import React from 'react';
 import './App.css';
+import {HashRouter} from "react-router-dom";
+import {Routes, Route, Navigate} from "react-router";
+import Home from './Home';
+import ProductDesign from './ProductDesign';
+import SoftwareDevelopment from './SoftwareDevelopment';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <div>
+        <Routes>
+          <Route path="/" element={<Navigate to="/Home/*"/>}/>
+          <Route path="/Home/*" element={<Home />}/>
+          <Route path="/Product-Design/*" element={<ProductDesign />}/>
+          <Route path="/Software-Development/*" element={<SoftwareDevelopment />}/>
+        </Routes>
+      </div>
+    </HashRouter>
   );
 }
 

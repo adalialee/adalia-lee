@@ -1,0 +1,76 @@
+[
+    {
+        "title": "Bullet Journal GUI",
+        "role": "Student in Object Oriented Design at NEU",
+        "timeline": "June 2023",
+        "overview": [
+            "Developed a GUI with a team of 2 other students that allows users to customize their experience of adding events, tasks, notes, and more to their calendar",
+            "Programmed MVC features that saved and opened weekly data with a splash screen, set daily maximums for events and tasks, and handled errors gracefully"
+        ],
+        "tags": [
+            "Java",
+            "JavaFX",
+            "MVC Model Programming",
+            "User Interface Design",
+            "GitHub",
+            "IntelliJ",
+            "SceneBuilder",
+            "Visual/Graphic Design"
+        ],
+        "image": "gui.png"
+    },
+    {
+        "title": "Cat. Productivity App",
+        "role": "Software Developer at Oasis NEU",
+        "timeline": "January - August 2023",
+        "overview": [
+            "Collaborated with a team of 3 other students to develop an app that promotes productivity with the incentive of caring for a virtual cat, where simulated health levels shift based on user-provided data about task completion",
+            "Designed front-end and back-end features such as adding to and keeping track of to-do list"
+        ],
+        "tags": [
+            "Swift",
+            "User Interface Design",
+            "GitHub",
+            "IntelliJ",
+            "SceneBuilder",
+            "Visual/Graphic Design"
+        ],
+        "image": "cat.png"
+    },
+    {
+        "title": "Iron Intake Website",
+        "role": "Student in Experience and Interaction Course",
+        "timeline": "March - April 2023",
+        "overview": [
+            "Developed an educational website about how to increase iron intake, which identifies and addresses several target audience groups that are more likely to be iron-deficient",
+            "Incorporated multiple website features, pages, interactive animations, and user customizations to increase user engagement"
+        ],
+        "tags": [
+            "HTML",
+            "CSS",
+            "User Interface Design",
+            "User Research",
+            "User Experience Design",
+            "Visual/Graphic Design"
+        ],
+        "image": "home.png"
+    },
+    {
+        "title": "EcoKeen Carbon Footprint Tracker App",
+        "role": "Student in Women in Tech at Cupertino High School",
+        "timeline": "December 2020 - April 2021",
+        "overview": [
+            "Built a carbon footprint tracker application with a team of 4 other students to combat climate change in a more approachable manner",
+            "Generated data visualizations of a user's carbon footprint based on their energy usage, and features a personalized recommendation system for tips/alternatives to reduce their carbon footprints"
+        ],
+        "tags": [
+            "HTML",
+            "CSS",
+            "User Interface Design",
+            "User Research",
+            "User Experience Design",
+            "Visual/Graphic Design"
+        ],
+        "image": "ecokeen.png"
+    }
+]

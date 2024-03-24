@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Kigumi Group Website",
+        "role": "UI/UX Design Intern for the Kigumi Group, an Asia-based digital literacy organization",
+        "timeline": "January 2024 - Present",
+        "overview": [
+            "Bringing organization to the design process by establishing the design system with the style guide and component library",
+            "Creating wireframes and redesigning the website that hosts the organization's digital literacy trainings"
+        ],
+        "tags": [
+            "Figma",
+            "User Interface Design",
+            "User Experience Design",
+            "Visual/Graphic Design"
+        ],
+        "image": "training.png"
+    },
+    {
+        "title": "Breaktime Website",
+        "role": "Product Designer at Code4Community NEU designing for Breaktime, a Boston-based nonprofit organization that aims to break the homelessness cycle",
+        "timeline": "September 2024  - Present",
+        "overview": [
+            "Designing for a timesheet-recording website used by Breaktime, a Boston-based nonprofit organization that provides young adults with the employment support they need to establish housing security",
+            "Adding new features to enhance the timesheet-recording user experience so that supervisors can better serve homeless young adults by gauging their workplace performance",
+            "Updating the component library, making wireframes, and implementing client feedback"
+        ],
+        "tags": [
+            "Figma",
+            "User Interface Design",
+            "User Experience Design",
+            "Visual/Graphic Design"
+        ],
+        "image": "timesheet.png"
+    },
+    {
+        "title": "Partnering Lab Website",
+        "role": "Part-Time Research Assistant (Design) for the Partnering Lab, a Boston-based dance research organization",
+        "timeline": "October - December 2023",
+        "overview": [
+            "Launched the logo and website redesign processes to more accurately reflect the dance research organization's core values through leveraging skills in identity and brand design, graphic design, and more",
+            "Created wireframes and a component library for the new website to showcase their work"
+        ],
+        "tags": [
+            "Figma",
+            "FigJam",
+            "User Interface Design",
+            "User Experience Design",
+            "Logo & Brand Identity Design",
+            "Visual/Graphic Design"
+        ],
+        "image": "about.png"
+    },
+    {
+        "title": "RapidRoute Mobile App Prototype",
+        "role": "Student in Interaction Design Principles Course at NEU",
+        "timeline": "October - December 2023",
+        "overview": [
+            "Collaborated with a team to create a high-fidelity prototype of a mobile application that improves the user experience of riding the MBTA train by suggesting optimal routes based on selected preferences",
+            "Designed features that allow users to plan and save routes in advance, send users notifications about their current best options and delays, and displays nearby options with timing details"
+        ],
+        "tags": [
+            "Figma",
+            "User Interface Design",
+            "User Research",
+            "User Experience Design",
+            "Visual/Graphic Design"
+        ],
+        "image": "phone.png"
+    }
+]
