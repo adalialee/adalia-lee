@@ -1,0 +1,32 @@
+.horizontal-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    background-color: #DFE9FF;
+}
+
+.horizontal-list li {
+    margin-right: 10px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.horizontal-list li.active {
+    border-bottom: 1px solid;
+}
+
+.horizontal-list li.active a {
+    text-decoration: none;
+}
+
+.horizontal-list li a {
+    text-decoration: none;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+}
