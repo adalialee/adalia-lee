@@ -16,8 +16,9 @@ function Navigation() {
         <div>
             <ul className="horizontal-list">
                 {links.map((link, index) => (
-                    <li key={index} className={pathname.includes(link.label) ? "active" : ""}>
-                        <Link to={`/${link.label}`}>{link.title}</Link>
+                    <li key={index} className={pathname.includes(link.label) ? "active" : ""}
+                    style={{textDecoration: "none"}}>
+                        <Link to={`/${link.label}`} style={{textDecoration: "none"}}>{link.title}</Link>
                     </li>
                 ))}
             </ul>

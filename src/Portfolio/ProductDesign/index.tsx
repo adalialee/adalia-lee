@@ -6,6 +6,8 @@ import "./index.css";
 function ProductDesign() {
     return (
         <div>
+            <p className="header">Product Design</p>
+            <p className="reason">Ever since taking design courses at Northeastern University and getting involved in UI/UX work through my job experiences and extracurriculars, this area has quickly become my happy space. I feel so invigorated when I’m expanding on style guides and component libraries, exploring various workflows with my team, and analyzing user insights to improve our products.</p>
             <div>
                 {productDesign.map((experience) => (
                     <div className="flex-fill experience">
