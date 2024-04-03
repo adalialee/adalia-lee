@@ -1,5 +1,6 @@
 [
     {
+        "id": "Bullet-Journal-GUI",
         "title": "Bullet Journal GUI",
         "role": "Student in Object Oriented Design at NEU",
         "timeline": "June 2023",
@@ -17,9 +18,26 @@
             "SceneBuilder",
             "Visual/Graphic Design"
         ],
-        "image": "gui.png"
+        "image": "gui.png",
+        "link": "https://github.com/CS-3500-OOD/pa05-oodesigners.git",
+        "link-description": " our GitHub repository.",
+        "summary": "The final project for my Object-Oriented Design course was to make a bullet journal GUI using Java, JavaFX, and GitHub. My group presented our work to a TA and earned extra credit for adding a splash screen and other styled elements.",
+        "subtitles": [
+            "UML Diagram",
+            "Main Screen",
+            "Splash Screen"
+        ],
+        "images": [
+            "b-uml.png",
+            "b-screen.jpg",
+            "b-splash.jpg"
+        ],
+        "descriptions": [
+            "I learned how to make UML diagrams in OOD, which is a super helpful skill. I like that it helps me visualize the different parts of the code and how they relate to each other. Color-coding the sections can be fun, too!",
+            "Users are able to create new tasks and events, as well as set and update maximums for them. They can also customize and save week names, quotes, notes, and more. A list of of the week's tasks appear on the side and there's a gif of a journal and pencil at the top right corner. My team used the real-time code-editing feature in IntelliJ to collaborate. We set up the code structure and data types together, then branched off from there. Other than that, I primarily implemented the saving and error handling of tasks and events, splash screen, gif, and led the design decisions/styling."        ]
     },
     {
+        "id": "Cat-Productivity-App",
         "title": "Cat. Productivity App",
         "role": "Software Developer at Oasis NEU",
         "timeline": "January - August 2023",
@@ -35,9 +53,20 @@
             "SceneBuilder",
             "Visual/Graphic Design"
         ],
-        "image": "cat.png"
+        "video": "cat.mp4",
+        "image": "cats.png",
+        "link": "https://docs.google.com/presentation/d/1diSObLUX2Z0oYTokTo0dHxVyEd29z666rwdQsvBWA0A/edit?usp=sharing",
+        "link-description": " the slideshow we presented that contains the GitHub repository link, and you can view a video demo of our app below.",
+        "summary": "Through joining the Oasis club on campus, I gained experience using Swift. For my whole team, it was our first time using Swift, so we got to learn together. Every Sunday, we had peer coding sessions and would ask our mentors questions.",
+        "subtitles": [
+        ],
+        "images": [
+        ],
+        "descriptions": [
+        ]
     },
     {
+        "id": "Iron-Intake-Website",
         "title": "Iron Intake Website",
         "role": "Student in Experience and Interaction Course",
         "timeline": "March - April 2023",
@@ -53,9 +82,21 @@
             "User Experience Design",
             "Visual/Graphic Design"
         ],
-        "image": "home.png"
+        "image": "home.png",
+        "link": "https://www.figma.com/file/RRlWXRqHeg7Sh71OGkNHag/Iron-Intake-Website-Project-Documentation?type=design&node-id=401%3A180&mode=design&t=q9ao696v1g8v7CfX-1",
+        "link-description": " my central Figma file for my detailed project documentation divided into pages for the concept statement, analysis for existing websites, content research, initial wireframes, revised wireframes, changes between iterations, and final website screenshots.",
+        "summary": "For my Experience and Interaction course final project, I developed a website that gives educates users about how to increase their iron intake. It provides users with suggestions customized to their target group (those who are menstruating, pregnant, vegan, or curious.",
+        "subtitles": [
+            "Main Screens"
+        ],
+        "images": [
+            "i-wireframes.png"
+        ],
+        "descriptions": [
+        ]
     },
     {
+        "id": "EcoKeen-Carbon-Footprint-Tracker-App",
         "title": "EcoKeen Carbon Footprint Tracker App",
         "role": "Student in Women in Tech at Cupertino High School",
         "timeline": "December 2020 - April 2021",
@@ -71,6 +112,17 @@
             "User Experience Design",
             "Visual/Graphic Design"
         ],
-        "image": "ecokeen.png"
+        "image": "wit.png",
+        "link": "https://docs.google.com/presentation/d/1zzpNN-4pmIu7RQ4gZA5-95nLF6b4-IymvYOAz1U6d6Y/edit?usp=sharing",
+        "link-description": " the slideshow we presented to the Technovation judges. These are some screenshots from our Thunkable prototype.",
+        "summary": "In high school, I joined our Women in Tech Club to participate in the Technovation Challenge with a team. This was one of my first exposures to programming, and it was nice exploring other areas such as business and design at the same time to produce a well-rounded project submission.",
+        "subtitles": [
+            "Main Screens"
+        ],
+        "images": [
+            "wit.png"
+        ],
+        "descriptions": [
+        ]
     }
 ]

@@ -1,5 +1,6 @@
 [
     {
+        "id": "Kigumi-Group-Website",
         "title": "Kigumi Group Website",
         "role": "UI/UX Design Intern for the Kigumi Group, an Asia-based digital literacy organization",
         "timeline": "January 2024 - Present",
@@ -13,9 +14,29 @@
             "User Experience Design",
             "Visual/Graphic Design"
         ],
-        "image": "training.png"
+        "image": "training.png",
+        "summary": "I joined the Kigumi Group because their mission of providing a range of digital literacy trainings tailored to students in Asia really appealed to me. It’s so important for education to take cultural values into account, and a lot of their clients did not have thorough enough resources for their students. I was thrilled to help out with their website design for trainings and showcasing their organization’s work.",
+        "subtitles": [
+            "Style Guide: Colors and Typography",
+            "Component Library",
+            "Sketches",
+            "Wireframes"
+        ],
+        "images": [
+            "k-styles.png",
+            "k-comps.png",
+            "k-sketches.png",
+            "k-wireframes.png"
+        ],
+        "descriptions": [
+            "After onboarding, my manager told me she had a functioning website quickly put together, so it lacked a design system and she was leaning towards having the entire website redesigned. I made a small adjustment to the brand color, then set the color and typography styles in Figma.",
+            "As a highly detail-oriented person, developing the component library is something that brings me a lot of joy and satisfaction. I didn’t have too many elements to make, so I created a more advanced dropdown menu. i started by setting the hover and pressed states in the prototype, then combined the elements. This dropdown will be used to switch between languages.",
+            "Based on my design discussions with my supervisor and the documentation I recorded about her preferences, I created several sketches for the home, training, and account workflows.",
+            "My supervisor and I went over my sketches, and I added comments along the way to help myself translate the designs onto Figma. Later on, the only minor tweak we made was adding some more information onto an individual training page when mocking it up."
+        ]
     },
     {
+        "id": "Breaktime-Website",
         "title": "Breaktime Website",
         "role": "Product Designer at Code4Community NEU designing for Breaktime, a Boston-based nonprofit organization that aims to break the homelessness cycle",
         "timeline": "September 2024  - Present",
@@ -30,9 +51,26 @@
             "User Experience Design",
             "Visual/Graphic Design"
         ],
-        "image": "timesheet.png"
+        "image": "timesheet.png",
+        "summary": "At Northeastern University, the club that has continually interested me the most is Code4Community because of its mission to develop meaningful and useful products for nonprofits around Boston. I was overjoyed to join as a Product Designer and Co-Director of Events. I've had such great experiences working with my project, events, and e-board teams while developing my abilities and meeting new people!",
+        "subtitles": [
+            "Style Guide: Colors and Typography",
+            "Component Library",
+            "Wireframes"
+        ],
+        "images": [
+            "c-styles.png",
+            "c-comps.png",
+            "c-wireframes.png"
+        ],
+        "descriptions": [
+            "When I joined my project team, the previous designer had just left. There was a gap between the previous designs and working prototype at the time, so my first task was to bridge the gap through redesigning/redeclaring the style guide and component library.",
+            "After talking with my project managers, tech leads, and developers, I made the components more modernized by putting in sleeker icons and drop shadows. To make the interface less overwhelming and more organized, I made other minor tweaks such as alternating the timesheet row colors. Along the way in many design discussions, I added other features such as attendance and report/evaluation labels.",
+            "Breaktime has a form to keep track of their young adults' workplace performance, so our project team is developing a centralized online portal/space to streamline the process. Out of the 46 wireframes that I made, these are some of the primary wireframes with workflows for weekly reports and evaluations, exporting timesheets, and deleting shifts/history. For each workflow, I had several iterations. Typically, my project managers and tech leads would coordinate a design ticket of a feature to create or improve on. Then, my project managers and I would sketch out initial ideas to present to my tech leads. After that, I would replicate the design options in Figma, receive feedback from my team, and continue refining the best designs until we were satisfied. I found that clearly labeling my design workflows and leaving comments for developers on features that might need extra clarification helped the developers more effectively translate my designs through code."
+        ]
     },
     {
+        "id": "Partnering-Lab-Website",
         "title": "Partnering Lab Website",
         "role": "Part-Time Research Assistant (Design) for the Partnering Lab, a Boston-based dance research organization",
         "timeline": "October - December 2023",
@@ -48,9 +86,32 @@
             "Logo & Brand Identity Design",
             "Visual/Graphic Design"
         ],
-        "image": "about.png"
+        "image": "about.png",
+        "summary": "I took on a part-time job with the Partnering Lab because I was intrigued by their research in dance, ethics, and more along with the range of potential design tasks from the job description.",
+        "subtitles": [
+            "Style Guide: Colors and Typography",
+            "Component Library",
+            "First Iteration of Wireframes",
+            "Second Itertion of Wireframes",
+            "Third Iteration of Wireframes"
+        ],
+        "images": [
+            "p-styles.png",
+            "p-comps.png",
+            "p-wireframes-1.png",
+            "p-wireframes-2.png",
+            "p-wireframes-3.png"
+        ],
+        "descriptions": [
+            "Some of the main values that The Partnering Lab wanted to effectively communicate in their work was professionalism, complexity, dialogue, circularity and more. Starting with the colors, my managers thought gray and blue would be good neutral, polished colors for their branding.",
+            "The focus of their site was mainly on showcasing their research work, so the component library was mostly the buttons and navigation bar. I played around with cards, but made a few iterations and wanted to keep the progress, so I didn't turn it into a component.",
+            "In my first iteration, I'd been so excited to start the process of redesigning the Partnering Lab's website that I got started without having enough conversations about branding. I conducted a design review of the previous site, then started creating the wireframes. I didn't realize I used the wrong typography style - my managers told me later on that they preferred thinner text in all caps.",
+            "For my second iteration, I also didn't have the full picture, so the colors were off. I'd pulled a similar shade of purple from the previous site into this group of wireframes. However, I used a lighter shade to increase the color contrast and readability.",
+            "This time, I implemented the insights and feedback about my managers' vision for the website, which my managers appreciated. Throughout my time with the Partnering Lab, I learned a lot about the complexities of the design process, particularly how values and other design considerations should be involved."
+        ]
     },
     {
+        "id": "RapidRoute-Mobile-App-Prototype",
         "title": "RapidRoute Mobile App Prototype",
         "role": "Student in Interaction Design Principles Course at NEU",
         "timeline": "October - December 2023",
@@ -65,6 +126,41 @@
             "User Experience Design",
             "Visual/Graphic Design"
         ],
-        "image": "phone.png"
+        "image": "rapid.png",
+        "summary": "For my Interaction Design Principes course, we were tasked with improving the MBTA app. I've included pages from my group's design process portfolio.",
+        "subtitles": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "images": [
+            "r-intro.png",
+            "r-research-1.png",
+            "r-research-2.png",
+            "r-ideate-1.png",
+            "r-ideate-2.png",
+            "r-ideate-3.png",
+            "r-ideate-4.png",
+            "r-ideate-5.png",
+            "r-ideate-6.png",
+            "r-implement-1.png",
+            "r-implement-2.png",
+            "r-implement-3.png",
+            "r-final.png",
+            "r-conclusion.png"
+        ],
+        "descriptions": [
+        ]
     }
 ]

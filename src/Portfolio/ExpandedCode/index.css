@@ -1,0 +1,47 @@
+.all {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.e-header {
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 124px;
+    margin-bottom: 36px;
+    color: #000000;
+}
+
+.e-subtitle {
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 124px;
+    margin-bottom: 36px;
+    color: #6A8FE1;
+}
+
+.e-summary {
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 124px;
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.project-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+}

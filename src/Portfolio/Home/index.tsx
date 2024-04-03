@@ -4,7 +4,7 @@ import Cards from '../Cards';
 
 function Home() {
     return (
-        <div>
+        <div style={{paddingTop: "24px"}}>
             <div className="row intro">
                 <div className="col-12 col-lg-6">
                     <img src="profile.png" className="img-fluid pfp"/>
@@ -16,7 +16,7 @@ function Home() {
                     </div>
                 </div>
                 <p className="goal">
-                    My ultimate career goal is one in UI/UX Design because I love creating impactful and intuitive user interfaces while connecting with people. I also enjoy Front-End Software Development for websites and apps.
+                    My ultimate career goal is one in Product Design because I love creating impactful and intuitive user interfaces while connecting with people. I also enjoy Software Development for websites and apps. Feel free to browse my Product Design and Software Development projects!
                 </p>
             </div>
             <Cards/>

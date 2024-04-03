@@ -1,15 +1,8 @@
-.preview {
-    background-color: #DFE9FF;
-    padding: 160px;
-    display: flex;
-    flex-direction: row;
-}
-
 .custom {
     background-color: #6A8FE1;
     font-family: "proxima-nova", sans-serif;
     font-style: normal;
-    margin: 24px;
+    margin: 16px;
     border-radius: 16px;
 }
 
@@ -19,7 +12,8 @@
     font-size: 30px;
     color: white;
     text-align: center;
-    padding-top: 36px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .bottom-text {

@@ -1,17 +1,38 @@
 [
     {
-        "title": "Product Design",
+        "id": "Product-Design",
+        "title": [
+            "Product",
+            "Design"
+        ],
         "image": "timesheet.png",
-        "description": "Prototypes"
+        "description": "Processes & Prototypes"
     },
     {
-        "title": "Software Development",
+        "id": "Software-Development",
+        "title": [
+            "Software",
+            "Development"
+        ],
         "image": "gui.png",
-        "description": "GUI, Websites, & Apps!"
+        "description": "GUI, Websites, & Apps"
     },
     {
-        "title": "Other Interests",
+        "id": "Graphic-Design",
+        "title": [
+            "Graphic",
+            "Design"
+        ],
+        "image": "opening.png",
+        "description": "Adobe Illustrator Designs"
+    },
+    {
+        "id": "Crochet-Creations",
+        "title": [
+            "Crochet",
+            "Creations"
+        ],
         "image": "cardigan.png",
-        "description": "Crochet, Graphic Design, & More!"
+        "description": "Plushies, Clothes, & More!"
     }
 ]
