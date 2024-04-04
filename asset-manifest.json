@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/adalia-lee/static/css/main.f9294ce8.css",
-    "main.js": "/adalia-lee/static/js/main.addbc26d.js",
+    "main.js": "/adalia-lee/static/js/main.ad20f2d1.js",
     "static/js/453.8fab85aa.chunk.js": "/adalia-lee/static/js/453.8fab85aa.chunk.js",
     "index.html": "/adalia-lee/index.html",
     "main.f9294ce8.css.map": "/adalia-lee/static/css/main.f9294ce8.css.map",
-    "main.addbc26d.js.map": "/adalia-lee/static/js/main.addbc26d.js.map",
+    "main.ad20f2d1.js.map": "/adalia-lee/static/js/main.ad20f2d1.js.map",
     "453.8fab85aa.chunk.js.map": "/adalia-lee/static/js/453.8fab85aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9294ce8.css",
-    "static/js/main.addbc26d.js"
+    "static/js/main.ad20f2d1.js"
   ]
 }
