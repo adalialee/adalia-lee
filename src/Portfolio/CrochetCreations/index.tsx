@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./index.css";
 
 function CrochetCreations() {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
     return (
         <div className="all" style={{justifyContent: "center"}}>
             <p className="header" style={{paddingTop: '172px'}}>Crochet Creations</p>

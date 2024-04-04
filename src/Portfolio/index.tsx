@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./index.css";
 import Navigation from "./Navigation";
 
 function Portfolio() {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
     const links = [
         {label: "Home", title: "Home"},
         {label: "Product-Design", title: "Product Design"},

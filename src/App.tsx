@@ -1,5 +1,5 @@
 // App.jsx
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Portfolio/Home';
 import ProductDesign from './Portfolio/ProductDesign';
@@ -12,6 +12,9 @@ import CrochetCreations from './Portfolio/CrochetCreations';
 import "./App.css";
 
 function App() {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
     return (
         <HashRouter>
             <div>

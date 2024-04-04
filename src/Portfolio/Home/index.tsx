@@ -1,8 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./index.css";
 import Cards from '../Cards';
+import { useEffect } from 'react';
 
 function Home() {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
     return (
         <div style={{paddingTop: "24px"}}>
             <div className="row intro">

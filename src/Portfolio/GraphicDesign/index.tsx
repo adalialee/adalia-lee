@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./index.css";
 
 function GraphicDesign() {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
     return (
         <div className="g-all" style={{justifyContent: "center"}}>
             <p className="g-header" style={{paddingTop: '172px'}}>Graphic Design</p>

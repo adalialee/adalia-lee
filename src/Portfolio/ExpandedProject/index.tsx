@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { productDesign } from "../Database";
 import "./index.css";
 
 function ExpandedProject() {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
     const { projectId } = useParams();
     const project = productDesign.find((project) => project.id === projectId);
 

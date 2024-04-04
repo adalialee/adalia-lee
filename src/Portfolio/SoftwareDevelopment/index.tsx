@@ -4,6 +4,9 @@ import { Navigate, Route, Routes, useParams, Link } from "react-router-dom";
 import "./index.css";
 
 function SoftwareDevelopment() {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
     return (
         <div>
             <p className="d-header" style={{paddingTop: "48px"}}>Software Development</p>
