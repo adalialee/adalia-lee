@@ -46,7 +46,7 @@ function ProductDesign() {
                                 </div>
                             </div>
                             <div style={{ display: 'flex' }}>
-                                <div style={{ width: '50vw', marginLeft: "24px" }}>
+                                <div style={{ width: '38vw', marginLeft: "5vw" }}>
                                     <img src={experience.image} className="img-fluid" style={{marginBottom: '5vw'}}/>
                                 </div>
                             </div>
