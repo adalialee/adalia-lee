@@ -42,7 +42,7 @@ function SoftwareDevelopment() {
                                 </div>
                             </div>
                             <div style={{ display: 'flex' }}>
-                                <div style={{ width: '24vw', marginLeft: "24px" }}>
+                                <div style={{ width: '50vw', marginLeft: "24px" }}>
                                     <img src={experience.image} className="img-fluid" style={{marginBottom: '5vw'}}/>
                                 </div>
                             </div>
