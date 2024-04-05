@@ -1,36 +1,36 @@
 .all {
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 15em;
+    padding-right: 15em;
 }
 
 .e-header {
     font-family: "proxima-nova", sans-serif;
     font-style: normal;
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 600;
     text-align: center;
-    margin-top: 124px;
-    margin-bottom: 36px;
+    margin-top: 7.75em;
+    margin-bottom: 2.25em;
     color: #000000;
 }
 
 .e-subtitle {
     font-family: "proxima-nova", sans-serif;
     font-style: normal;
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: 600;
     text-align: center;
-    margin-top: 124px;
-    margin-bottom: 36px;
+    margin-top: 7.75em;
+    margin-bottom: 2.25em;
     color: #6A8FE1;
 }
 
 .e-summary {
     font-family: "proxima-nova", sans-serif;
     font-style: normal;
-    font-size: 20px;
-    margin-bottom: 124px;
-    margin-top: 16px;
+    font-size: 1.25em;
+    margin-bottom: 7.75em;
+    margin-top: 1em;
     text-align: center;
     font-weight: 400;
 }

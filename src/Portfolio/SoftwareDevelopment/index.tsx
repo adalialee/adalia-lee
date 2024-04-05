@@ -9,7 +9,7 @@ function SoftwareDevelopment() {
       },[])
     return (
         <div>
-            <p className="d-header" style={{paddingTop: "48px"}}>Software Development</p>
+            <p className="d-header" style={{paddingTop: "3em"}}>Software Development</p>
             <p className="d-reason">Another one of my major interest areas is Software Development. Through my Computer Science courses at Northeastern University, I discovered I enjoy Front-End Software Development for GUI's, websites, and apps the most within CS because I can apply some creativity while experimenting with technical aspects.</p>
             <div>
                 {softwareDevelopment.map((experience, index) => (

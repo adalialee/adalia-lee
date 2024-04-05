@@ -1,14 +1,14 @@
 .intro {
-    padding-left: 160px;
-    padding-right: 160px;
-    padding-top: 160px;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 10em;
     font-family: "proxima-nova", sans-serif;
     font-style: normal;
     align-items: center;
 }
 
 .pfp {
-    padding-right: 56px;
+    padding-right: 3.5em;
 }
 
 .intro-content {
@@ -18,20 +18,20 @@
 
 #title {
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3em;
 }
 
 #intro-text {
     font-weight: 400;
-    font-size: 30px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    font-size: 1.875em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .goal {
     font-weight: 500;
-    font-size: 20px;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    font-size: 1.25em;
+    padding-top: 4.5em;
+    padding-bottom: 4.5em;
     font-weight: 400;
 }

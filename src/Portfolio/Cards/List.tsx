@@ -11,7 +11,7 @@ function CardsList() {
         <div className="container">
             <div className="row">
                 {cards.map((card, index) => (
-                    <div key={index} className="col-lg-3 col-md-6 col-sm-12" style={{ marginBottom: index !== cards.length - 1 ? "24px" : "0" }}>
+                    <div key={index} className="col-lg-3 col-md-6 col-sm-12" style={{ marginBottom: index !== cards.length - 1 ? "1.5em" : "0" }}>
                         <Link to={`/${card.id}`} style={{ textDecoration: "none" }}>
                             <div className="custom">
                                 <div>
@@ -26,10 +26,10 @@ function CardsList() {
                                     <img
                                         className="img-fluid"
                                         src={card.image}
-                                        style={{paddingLeft: "12px", paddingRight: "12px", paddingBottom: "24px"}}
+                                        style={{paddingLeft: "0.75em", paddingRight: "0.75em", paddingBottom: "1.5em"}}
                                     />
                                     <div className="navigate">
-                                        <div className="bottom-text" style={{paddingBottom: "16px"}}>
+                                        <div className="bottom-text" style={{paddingBottom: "1em"}}>
                                             {card.description}
                                         </div>
                                         <div>

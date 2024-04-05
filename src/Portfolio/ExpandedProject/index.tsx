@@ -18,7 +18,7 @@ function ExpandedProject() {
         <div key={index}>
             <div className="e-subtitle">
                 <p>{subtitle}</p>
-                {<hr style={{ height: "2px", opacity: "1", backgroundColor: "#9FB9F2", border: "none", marginTop: "16px" }} />}
+                {<hr style={{ height: "0.125em", opacity: "1", backgroundColor: "#9FB9F2", border: "none", marginTop: "1em" }} />}
             </div>
             <img src={project.images[index]} className="img-fluid" />
             <div className="e-summary" style={{textAlign: "left"}}>
@@ -29,7 +29,7 @@ function ExpandedProject() {
 
     return (
         <div className="all">
-            <div className="e-header" style={{paddingTop: "48px"}}>
+            <div className="e-header" style={{paddingTop: "3em"}}>
                 <p>{project.title}</p>
             </div>
             <div className="e-summary">

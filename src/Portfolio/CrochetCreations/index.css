@@ -1,16 +1,16 @@
 .all {
-    padding-left: 124px;
-    padding-right: 124px;
+    padding-left: 7.75em;
+    padding-right: 7.75em;
 }
 
 .header {
     font-family: "proxima-nova", sans-serif;
     font-style: normal;
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 600;
     text-align: center;
-    padding-top: 124px;
-    padding-bottom: 24px;
+    padding-top: 7.75em;
+    padding-bottom: 1.5em;
     color: #6A8FE1;
     max-width: 100%;
 }
@@ -18,19 +18,19 @@
 .subtitle {
     font-family: "proxima-nova", sans-serif;
     font-style: normal;
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: 600;
     text-align: center;
-    padding-top: 24px;
-    margin-bottom: 36px;
+    padding-top: 1.5em;
+    margin-bottom: 2.25em;
 }
 
 .summary {
     font-family: "proxima-nova", sans-serif;
     font-style: normal;
-    font-size: 20px;
-    margin-bottom: 124px;
-    margin-top: 16px;
+    font-size: 1.25em;
+    margin-bottom: 7.75em;
+    margin-top: 1em;
     text-align: center;
     font-weight: 400;
 }

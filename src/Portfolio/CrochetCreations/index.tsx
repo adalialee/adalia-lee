@@ -7,7 +7,7 @@ function CrochetCreations() {
       },[])
     return (
         <div className="all" style={{justifyContent: "center"}}>
-            <p className="header" style={{paddingTop: '172px'}}>Crochet Creations</p>
+            <p className="header" style={{paddingTop: '10.75em'}}>Crochet Creations</p>
             <p className="summary">
                 I wanted to learn how to crochet because I'd seen lots of cute posts on Instagram and my high school calculus teacher mentioned it. My sign to actually start was my senior year econ final project, where one of the options was to document the process of picking up a new skill. I started with following YouTube tutorials, but eventually picked up on the patterns. Now, I try to be more creative with my work since I can freehand crochet. Some of my facorite things to make are amigurumi plushies, clothes, and other accessories/decorations. Teaching people how to crochet and crocheting with my friends brings me lots of joy, too. In Code4Community, we planned three crochet nights to teach our memberes to make heart decorations for our Valentine's Day Prom, which was super fun and rewarding!
             </p>

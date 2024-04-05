@@ -7,7 +7,7 @@ function GraphicDesign() {
       },[])
     return (
         <div className="g-all" style={{justifyContent: "center"}}>
-            <p className="g-header" style={{paddingTop: '172px'}}>Graphic Design</p>
+            <p className="g-header" style={{paddingTop: '10.75em'}}>Graphic Design</p>
             <p className="g-subtitle">
                 Wallpapers
             </p>
@@ -29,7 +29,7 @@ function GraphicDesign() {
                 <img src="window.png" className="img-fluid" style={{ width: '60vw', marginLeft: '5vw', marginRight: '5vw' }}/>
             </div>
 
-            <p className="g-subtitle" style={{paddingTop: '124px'}}>
+            <p className="g-subtitle" style={{paddingTop: '7.75em'}}>
                 Spotify Covers
             </p>
             <p className="g-summary">
@@ -60,7 +60,7 @@ function GraphicDesign() {
                 </div>
             </div>
 
-            <p className="g-subtitle" style={{paddingTop: '124px'}}>
+            <p className="g-subtitle" style={{paddingTop: '7.75em'}}>
                 More Designs
             </p>
             <p className="g-summary">

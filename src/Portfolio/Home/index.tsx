@@ -8,7 +8,7 @@ function Home() {
         window.scrollTo(0, 0);
       },[])
     return (
-        <div style={{paddingTop: "24px"}}>
+        <div style={{paddingTop: "1.5em"}}>
             <div className="row intro">
                 <div className="col-12 col-lg-6">
                     <img src="profile.png" className="img-fluid pfp"/>

@@ -9,7 +9,7 @@ function ProductDesign() {
       },[])
     return (
         <div>
-            <p className="p-header" style={{paddingTop: "48px"}}>Product Design</p>
+            <p className="p-header" style={{paddingTop: "3em"}}>Product Design</p>
             <p className="p-reason">Ever since taking design courses at Northeastern University and getting involved in UI/UX work through my job experiences and extracurriculars, this area has quickly become my happy space. I feel so invigorated when I’m expanding on style guides and component libraries, exploring various workflows with my team, and analyzing user insights to improve our products.</p>
             <div>
                 {productDesign.map((experience, index) => (
