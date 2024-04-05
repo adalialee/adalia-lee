@@ -61,7 +61,7 @@
 .d-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 16em;
+    gap: 16px;
 }
 
 .d-tag {
