@@ -61,7 +61,7 @@
 .p-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 16em;
 }
 
 .p-tag {

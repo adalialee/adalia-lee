@@ -6,7 +6,7 @@
     text-align: center;
     margin-top: 124px;
     margin-bottom: 36px;
-    color: #6A8FE1
+    color: #6A8FE1;
 }
 
 .d-reason {
@@ -61,7 +61,7 @@
 .d-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 16em;
 }
 
 .d-tag {
@@ -73,7 +73,8 @@
     border-radius: 24px;
 }
 
-.img-container {
+.d-image-container {
+    width: 50%;
     @media (max-width: 1100px) {
         width: 100%;
     }
