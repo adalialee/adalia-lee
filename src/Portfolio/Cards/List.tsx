@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { cards } from "../Database";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 function CardsList() {
     useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to the top when the component mounts
+        window.scrollTo(0, 0);
     }, []);
     return (
         <div className="container">
@@ -26,6 +26,7 @@ function CardsList() {
                                     <img
                                         className="img-fluid"
                                         src={card.image}
+                                        alt="card"
                                         style={{paddingLeft: "12px", paddingRight: "12px", paddingBottom: "24px"}}
                                     />
                                     <div className="navigate">

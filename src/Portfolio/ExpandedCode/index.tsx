@@ -20,7 +20,7 @@ function ExpandedCode() {
                 <p>{subtitle}</p>
                 {<hr style={{ height: "2px", opacity: "1", backgroundColor: "#9FB9F2", border: "none", marginTop: "16px" }} />}
             </div>
-            <img src={project.images[index]} className="img-fluid" />
+            <img src={project.images[index]} className="max-width img-fluid" style={{objectFit: "none"}} alt="project" />
             <div className="e-summary" style={{textAlign: "left"}}>
                 <p>{project.descriptions[index]}</p>
             </div>
@@ -41,10 +41,13 @@ function ExpandedCode() {
                 </p>
             </div>
             {project.video && (
-                <div style={{width: "30%", margin: "auto", marginBottom: "124px"}}>
+                <div style={{ 
+                    width: project.video === "cat.mp4" ? "30%" : (project.video === "otic.mp4" ? "80%" : "30%"), 
+                    margin: "auto", 
+                    marginBottom: "124px" 
+                }}>
                     <video controls style={{ width: "100%" }}>
-                    <source src={project.video} type="video/mp4" />
-                    Your browser does not support the video tag.
+                    <source src={`/adalia-lee/media/${project.video}`} type="video/mp4" />
                     </video>
                 </div>
             )}

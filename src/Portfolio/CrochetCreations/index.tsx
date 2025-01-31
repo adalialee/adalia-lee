@@ -13,36 +13,36 @@ function CrochetCreations() {
             </p>
             <div style={{ display: 'flex' }}>
                 <div style={{ width: '35vw', marginLeft: '5vw', marginRight: '5vw' }}>
-                    <img src="ducks.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/ducks.png" className="img-fluid" alt="ducks" />
                 </div>
                 <div style={{ width: '35vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="c4c.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/c4c.png" className="img-fluid" alt="c4c" />
                 </div>
                 <div style={{ width: '35vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="bird.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/bird.png" className="img-fluid" alt="bird" />
                 </div>
             </div>
             <div style={{ display: 'flex', marginTop: '5vw' }}>
                 <div style={{ width: '35vw', marginLeft: '5vw', marginRight: '5vw' }}>
-                    <img src="beanie.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/beanie.png" className="img-fluid" alt="beanie"/>
                 </div>
                 <div style={{ width: '35vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="shirt.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/shirt.png" className="img-fluid" alt="shirt" />
                 </div>
                 <div style={{ width: '35vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="toffee.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/toffee.png" className="img-fluid" alt="hedgehog" />
                 </div>
             </div>
             <div style={{ display: 'flex', marginTop: '5vw' }}>
             <div style={{ width: '35vw', marginLeft: '5vw', marginRight: '5vw' }}>
-                    <img src="crabs.png" className="img-fluid" style={{ marginBottom: '5vw' }}/>
-                    <img src="sun.png" className="img-fluid" style={{ marginBottom: '5vw' }}/>
-                    <img src="garlands.png" className="img-fluid"/>
+                    <img src="/adalia-lee/media/crabs.png" className="img-fluid" alt="crabs" style={{ marginBottom: '5vw' }}/>
+                    <img src="/adalia-lee/media/sun.png" className="img-fluid" alt="sun" style={{ marginBottom: '5vw' }}/>
+                    <img src="/adalia-lee/media/garlands.png" className="img-fluid" alt="garlands"/>
                 </div>
                 <div style={{ width: '45vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="frog.png" className="img-fluid" style={{ marginBottom: '5vw' }} />
-                    <img src="headband.png" className="img-fluid" style={{ marginBottom: '5vw' }}/>
-                    <img src="bear.png" className="img-fluid" style={{marginBottom: '5vw'}}/>
+                    <img src="/adalia-lee/media/frog.png" className="img-fluid" alt="frog" style={{ marginBottom: '5vw' }} />
+                    <img src="/adalia-lee/media/headband.png" className="img-fluid" alt="headband" style={{ marginBottom: '5vw' }}/>
+                    <img src="/adalia-lee/media/bear.png" className="img-fluid" alt="bear" style={{marginBottom: '5vw'}}/>
                 </div>
             </div>
         </div>     

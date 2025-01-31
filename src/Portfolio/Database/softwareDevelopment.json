@@ -1,5 +1,45 @@
 [
     {
+        "id": "Open-RAN-Co-Op",
+        "title": "Open RAN Website Design and Automation Co-Op",
+        "role": "Co-Op for the Institute for the Wireless Internet of Things (WIoT), a hub for developing and testing next-generation wireless networks based on Open RAN",
+        "timeline": "July - December 2024",
+        "overview": [
+            "Designed and developed public-facing and private client and team portal websites to showcase, track, and manage Open-RAN equipment-testing services",
+            "Led the end-to-end development process including user research, style guide and component library creation, wireframing, user testing (with companies like NVIDIA, Keysight Technologies, and Rakuten), coding, and deployment"
+        ],
+        "tags": [
+            "Full-Stack Web Development",
+            "React",
+            "TypeScript",
+            "Node.js",
+            "Express.js",
+            "HTML",
+            "CSS",
+            "AWS",
+            "MySQL",
+            "LDAP",
+            "Postman",
+            "UI/UX Design",
+            "User Research",
+            "Identity and Brand Design",
+            "Visual/Graphic Design",
+            "Figma",
+            "FigJam"
+        ],
+        "video": "otic.mp4",
+        "image": "open6g.png",
+        "link": "https://www.open6g.us",
+        "link-description": " the public-facing website I developed. Featured below is the basic workflow within the private client and administrative portals I developed for the MVP.",
+        "summary": "During my co-op at the Institute for the Wireless Internet of Things (WIoT), I designed and developed public-facing and private client and team portal websites to showcase, track, and manage hardware and software testing services. I led the end-to-end development process including user research, style guide and component library creation, wireframing, user testing (with companies like NVIDIA, Keysight Technologies, and Rakuten), coding, and deployment. Because I was the first co-op student to work on these projects and didn't have any direct team members besides my two supervisors, I created centralized research and design docs, made multiple iterations of designs, and gathered feedback from various perspectives.",
+        "subtitles": [  
+        ],
+        "images": [
+        ],
+        "descriptions": [
+        ]
+    },
+    {
         "id": "Bullet-Journal-GUI",
         "title": "Bullet Journal GUI",
         "role": "Student in Object Oriented Design at NEU",
@@ -9,13 +49,13 @@
             "Programmed MVC features that saved and opened weekly data with a splash screen, set daily maximums for events and tasks, and handled errors gracefully"
         ],
         "tags": [
+            "Graphical User Interface",
+            "Object-Oriented Design",
+            "Model-View-Controller",
             "Java",
             "JavaFX",
-            "MVC Model Programming",
-            "User Interface Design",
-            "GitHub",
-            "IntelliJ",
             "SceneBuilder",
+            "UI/UX Design",
             "Visual/Graphic Design"
         ],
         "image": "gui.png",
@@ -28,9 +68,9 @@
             "Splash Screen"
         ],
         "images": [
-            "b-uml.png",
-            "b-screen.jpg",
-            "b-splash.jpg"
+            "/adalia-lee/media/b-uml.png",
+            "/adalia-lee/media/b-screen.jpg",
+            "/adalia-lee/media/b-splash.jpg"
         ],
         "descriptions": [
             "I learned how to make UML diagrams in OOD, which is a super helpful skill. I like that it helps me visualize the different parts of the code and how they relate to each other. Color-coding the sections can be fun, too!",
@@ -46,11 +86,9 @@
             "Designed front-end and back-end features such as adding to and keeping track of to-do list"
         ],
         "tags": [
+            "App Development",
             "Swift",
-            "User Interface Design",
-            "GitHub",
-            "IntelliJ",
-            "SceneBuilder",
+            "UI/UX Design",
             "Visual/Graphic Design"
         ],
         "video": "cat.mp4",
@@ -75,12 +113,13 @@
             "Incorporated multiple website features, pages, interactive animations, and user customizations to increase user engagement"
         ],
         "tags": [
+            "Web Development",
             "HTML",
             "CSS",
-            "User Interface Design",
+            "UI/UX Design",
             "User Research",
-            "User Experience Design",
-            "Visual/Graphic Design"
+            "Visual/Graphic Design",
+            "Health Research"
         ],
         "image": "home.png",
         "link": "https://www.figma.com/file/RRlWXRqHeg7Sh71OGkNHag/Iron-Intake-Website-Project-Documentation?type=design&node-id=401%3A180&mode=design&t=q9ao696v1g8v7CfX-1",
@@ -90,7 +129,7 @@
             "Main Screens"
         ],
         "images": [
-            "i-wireframes.png"
+            "/adalia-lee/media/i-wireframes.png"
         ],
         "descriptions": [
         ]
@@ -105,12 +144,11 @@
             "Generated data visualizations of a user's carbon footprint based on their energy usage, and features a personalized recommendation system for tips/alternatives to reduce their carbon footprints"
         ],
         "tags": [
-            "HTML",
-            "CSS",
-            "User Interface Design",
+            "Thunkable",
+            "UI/UX Design",
             "User Research",
-            "User Experience Design",
-            "Visual/Graphic Design"
+            "Visual/Graphic Design",
+            "Business"
         ],
         "image": "wit.png",
         "link": "https://docs.google.com/presentation/d/1zzpNN-4pmIu7RQ4gZA5-95nLF6b4-IymvYOAz1U6d6Y/edit?usp=sharing",
@@ -120,7 +158,7 @@
             "Main Screens"
         ],
         "images": [
-            "wit.png"
+            "/adalia-lee/media/wit.png"
         ],
         "descriptions": [
         ]

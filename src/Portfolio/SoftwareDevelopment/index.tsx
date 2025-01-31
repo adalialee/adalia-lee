@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { softwareDevelopment } from "../Database";
-import { Navigate, Route, Routes, useParams, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 function SoftwareDevelopment() {
@@ -46,7 +46,7 @@ function SoftwareDevelopment() {
                             </div>
                             <div style={{ display: 'flex' }}>
                                 <div style={{ width: '38vw', marginLeft: "5vw" }}>
-                                    <img src={experience.image} className="img-fluid" style={{marginBottom: '5vw'}}/>
+                                    <img src={`/adalia-lee/media/${experience.image}`} alt="experience" className="img-fluid" style={{marginBottom: '5vw'}}/>
                                 </div>
                             </div>
                         </div>

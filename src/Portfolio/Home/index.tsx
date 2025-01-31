@@ -1,7 +1,7 @@
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./index.css";
 import Cards from '../Cards';
-import { useEffect } from 'react';
 
 function Home() {
     useEffect(()=>{
@@ -11,7 +11,7 @@ function Home() {
         <div style={{paddingTop: "24px"}}>
             <div className="row intro">
                 <div className="col-12 col-lg-6">
-                    <img src="profile.png" className="img-fluid pfp"/>
+                    <img src="/adalia-lee/media/profile.png" alt="profile" className="img-fluid pfp"/>
                 </div>
                 <div className="col-12 col-lg-6 intro-text">
                     <div className="intro-content">

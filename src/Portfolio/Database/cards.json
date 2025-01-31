@@ -5,7 +5,7 @@
             "Product",
             "Design"
         ],
-        "image": "timesheet.png",
+        "image": "/adalia-lee/media/timesheet.png",
         "description": "Processes & Prototypes"
     },
     {
@@ -14,7 +14,7 @@
             "Software",
             "Development"
         ],
-        "image": "gui.png",
+        "image": "/adalia-lee/media/gui.png",
         "description": "GUI, Websites, & Apps"
     },
     {
@@ -23,7 +23,7 @@
             "Graphic",
             "Design"
         ],
-        "image": "opening.png",
+        "image": "/adalia-lee/media//opening.png",
         "description": "Adobe Illustrator Designs"
     },
     {
@@ -32,7 +32,7 @@
             "Crochet",
             "Creations"
         ],
-        "image": "cardigan.png",
+        "image": "/adalia-lee/media/cardigan.png",
         "description": "Plushies, Clothes, & More!"
     }
 ]

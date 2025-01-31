@@ -1,18 +1,70 @@
 [
     {
+        "id": "Open-RAN-Co-Op",
+        "title": "Open RAN Website Design and Automation Co-Op",
+        "role": "Co-Op for the Institute for the Wireless Internet of Things (WIoT), a hub for developing and testing next-generation wireless networks based on Open RAN",
+        "timeline": "July - December 2024",
+        "overview": [
+            "Designed and developed public-facing and private client and team portal websites to showcase, track, and manage Open-RAN equipment-testing services",
+            "Led the end-to-end development process including user research, style guide and component library creation, wireframing, user testing (with companies like NVIDIA, Keysight Technologies, and Rakuten), coding, and deployment"
+        ],
+        "tags": [
+            "UI/UX Design",
+            "User Research",
+            "Visual/Graphic Design",
+            "Figma",
+            "FigJam",
+            "Full-Stack Web Development",
+            "React",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "Node.js",
+            "Express.js",
+            "AWS",
+            "MySQL",
+            "LDAP",
+            "Postman"
+        ],
+        "image": "open6g.png",
+        "summary": "During my co-op at the Institute for the Wireless Internet of Things (WIoT), I designed and developed public-facing and private client and team portal websites to showcase, track, and manage hardware and software testing services. I led the end-to-end development process including user research, style guide and component library creation, wireframing, user testing (with companies like NVIDIA, Keysight Technologies, and Rakuten), coding, and deployment. Because I was the first co-op student to work on these projects and didn't have any direct team members besides my two supervisors, I created centralized research and design docs, made multiple iterations of designs, and gathered feedback from various perspectives.",
+        "subtitles": [
+            "Style Guide: Colors and Typography",
+            "Component Library",
+            "Sketches",
+            "Wireframes"
+        ],
+        "images": [
+            "/adalia-lee/media/o-styles.png",
+            "/adalia-lee/media/o-comps.png",
+            "/adalia-lee/media/o-sketches.png",
+            [
+                "/adalia-lee/media/o-wireframe-1.png",
+                "/adalia-lee/media/o-wireframe-2.png",
+                "/adalia-lee/media/o-wireframe-3.png"
+            ]
+        ],
+        "descriptions": [
+            "The organization within the WIoT that I worked for is called the Open6G OTIC, and when I joined them there wasn't much existing branding. After carefully getting an idea of what my supervisors were looking for, I created 10+ variations each of typography hierarchies and color schemes, then reached out to others in the organization for their feedback to ensure the style guide effectively reflected the Open6G OTIC's values and work.",
+            "I love putting together component libraries, especially testing multi-state elements. This step is particularly exciting to me because of how interactive it is, and it signifies I'm ready to start exploring and piecing everything together in the wireframing phase of the design process.",
+            "This isn't even a quarter of the sketches I made for the public-facing website and private client and administrative portals! I broke these projects into sections: \"Home\", \"About Us\", and \"Services\" for the public-facing site, client portal, and administrative portal.",
+            "(The last 2 wireframes in this set are from the private portals.) I made a set of low-fidelity wireframes, then a set of high-fidelity wireframes. Through extensive user-testing with people from within and outside of the organization, I gained valuable insights, such as the most intuitive workflows, the most relevant information to highlight, and the best information hierarchies. I took notes that I organized into a comprehensive affinity diagrams, then implemented their combined feedback into more iterations."
+        ]
+    },
+    {
         "id": "Kigumi-Group-Website",
         "title": "Kigumi Group Website",
         "role": "UI/UX Design Intern for the Kigumi Group, an Asia-based digital literacy organization",
-        "timeline": "January 2024 - Present",
+        "timeline": "January - March 2024",
         "overview": [
-            "Bringing organization to the design process by establishing the design system with the style guide and component library",
-            "Creating wireframes and redesigning the website that hosts the organization's digital literacy trainings"
+            "Brought organization to the design process by establishing the design system with the style guide and component library",
+            "Created wireframes and redesigned the website that hosts the organization's digital literacy trainings"
         ],
         "tags": [
-            "Figma",
-            "User Interface Design",
-            "User Experience Design",
-            "Visual/Graphic Design"
+            "UI/UX Design",
+            "User Research",
+            "Visual/Graphic Design",
+            "Figma"
         ],
         "image": "training.png",
         "summary": "I joined the Kigumi Group because their mission of providing a range of digital literacy trainings tailored to students in Asia really appealed to me. It’s so important for education to take cultural values into account, and a lot of their clients did not have thorough enough resources for their students. I was thrilled to help out with their website design for trainings and showcasing their organization’s work.",
@@ -23,14 +75,14 @@
             "Wireframes"
         ],
         "images": [
-            "k-styles.png",
-            "k-comps.png",
-            "k-sketches.png",
-            "k-wireframes.png"
+            "/adalia-lee/media/k-styles.png",
+            "/adalia-lee/media/k-comps.png",
+            "/adalia-lee/media/k-sketches.png",
+            "/adalia-lee/media/k-wireframes.png"
         ],
         "descriptions": [
             "After onboarding, my manager told me she had a functioning website quickly put together, so it lacked a design system and she was leaning towards having the entire website redesigned. I made a small adjustment to the brand color, then set the color and typography styles in Figma.",
-            "As a highly detail-oriented person, developing the component library is something that brings me a lot of joy and satisfaction. I didn’t have too many elements to make, so I created a more advanced dropdown menu. i started by setting the hover and pressed states in the prototype, then combined the elements. This dropdown will be used to switch between languages.",
+            "As a highly detail-oriented person, developing the component library is something that brings me a lot of joy and satisfaction. I didn’t have too many elements to make, so I created a more advanced dropdown menu. I started by setting the hover and pressed states in the prototype, then combined the elements. This dropdown will be used to switch between languages.",
             "Based on my design discussions with my supervisor and the documentation I recorded about her preferences, I created several sketches for the home, training, and account workflows.",
             "My supervisor and I went over my sketches, and I added comments along the way to help myself translate the designs onto Figma. Later on, the only minor tweak we made was adding some more information onto an individual training page when mocking it up."
         ]
@@ -46,10 +98,10 @@
             "Updating the component library, making wireframes, and implementing client feedback"
         ],
         "tags": [
-            "Figma",
-            "User Interface Design",
-            "User Experience Design",
-            "Visual/Graphic Design"
+            "UI/UX Design",
+            "User Research",
+            "Visual/Graphic Design",
+            "Figma"
         ],
         "image": "timesheet.png",
         "summary": "At Northeastern University, the club that has continually interested me the most is Code4Community because of its mission to develop meaningful and useful products for nonprofits around Boston. I was overjoyed to join as a Product Designer and Co-Director of Events. I've had such great experiences working with my project, events, and e-board teams while developing my abilities and meeting new people!",
@@ -59,9 +111,9 @@
             "Wireframes"
         ],
         "images": [
-            "c-styles.png",
-            "c-comps.png",
-            "c-wireframes.png"
+            "/adalia-lee/media/c-styles.png",
+            "/adalia-lee/media/c-comps.png",
+            "/adalia-lee/media/c-wireframes.png"
         ],
         "descriptions": [
             "When I joined my project team, the previous designer had just left. There was a gap between the previous designs and working prototype at the time, so my first task was to bridge the gap through redesigning/redeclaring the style guide and component library.",
@@ -79,12 +131,12 @@
             "Created wireframes and a component library for the new website to showcase their work"
         ],
         "tags": [
+            "UI/UX Design",
+            "User Research",
+            "Identity and Brand Design",
+            "Visual/Graphic Design",
             "Figma",
-            "FigJam",
-            "User Interface Design",
-            "User Experience Design",
-            "Logo & Brand Identity Design",
-            "Visual/Graphic Design"
+            "FigJam"
         ],
         "image": "about.png",
         "summary": "I took on a part-time job with the Partnering Lab because I was intrigued by their research in dance, ethics, and more along with the range of potential design tasks from the job description.",
@@ -96,11 +148,11 @@
             "Third Iteration of Wireframes"
         ],
         "images": [
-            "p-styles.png",
-            "p-comps.png",
-            "p-wireframes-1.png",
-            "p-wireframes-2.png",
-            "p-wireframes-3.png"
+            "/adalia-lee/media/p-styles.png",
+            "/adalia-lee/media/p-comps.png",
+            "/adalia-lee/media/p-wireframes-1.png",
+            "/adalia-lee/media/p-wireframes-2.png",
+            "/adalia-lee/media/p-wireframes-3.png"
         ],
         "descriptions": [
             "Some of the main values that The Partnering Lab wanted to effectively communicate in their work was professionalism, complexity, dialogue, circularity and more. Starting with the colors, my managers thought gray and blue would be good neutral, polished colors for their branding.",
@@ -120,11 +172,11 @@
             "Designed features that allow users to plan and save routes in advance, send users notifications about their current best options and delays, and displays nearby options with timing details"
         ],
         "tags": [
-            "Figma",
-            "User Interface Design",
+            "UI/UX Design",
             "User Research",
-            "User Experience Design",
-            "Visual/Graphic Design"
+            "Identity and Brand Design",
+            "Visual/Graphic Design",
+            "Figma"
         ],
         "image": "rapid.png",
         "summary": "For my Interaction Design Principes course, we were tasked with improving the MBTA app. I've included pages from my group's design process portfolio.",
@@ -145,20 +197,20 @@
             ""
         ],
         "images": [
-            "r-intro.png",
-            "r-research-1.png",
-            "r-research-2.png",
-            "r-ideate-1.png",
-            "r-ideate-2.png",
-            "r-ideate-3.png",
-            "r-ideate-4.png",
-            "r-ideate-5.png",
-            "r-ideate-6.png",
-            "r-implement-1.png",
-            "r-implement-2.png",
-            "r-implement-3.png",
-            "r-final.png",
-            "r-conclusion.png"
+            "/adalia-lee/media/r-intro.png",
+            "/adalia-lee/media/r-research-1.png",
+            "/adalia-lee/media/r-research-2.png",
+            "/adalia-lee/media/r-ideate-1.png",
+            "/adalia-lee/media/r-ideate-2.png",
+            "/adalia-lee/media/r-ideate-3.png",
+            "/adalia-lee/media/r-ideate-4.png",
+            "/adalia-lee/media/r-ideate-5.png",
+            "/adalia-lee/media/r-ideate-6.png",
+            "/adalia-lee/media/r-implement-1.png",
+            "/adalia-lee/media/r-implement-2.png",
+            "/adalia-lee/media/r-implement-3.png",
+            "/adalia-lee/media/r-final.png",
+            "/adalia-lee/media/r-conclusion.png"
         ],
         "descriptions": [
         ]

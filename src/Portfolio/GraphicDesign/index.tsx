@@ -16,17 +16,17 @@ function GraphicDesign() {
             </p>
             <div style={{ display: 'flex' }}>
                 <div style={{ width: '35vw', marginLeft: '5vw', marginRight: '5vw' }}>
-                    <img src="balloon.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/balloon.png" alt="balloon" className="img-fluid" />
                 </div>
                 <div style={{ width: '35vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="city.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/city.png" alt="city" className="img-fluid" />
                 </div>
                 <div style={{ width: '35vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="road.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/road.png" alt="road" className="img-fluid" />
                 </div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', marginTop: '5vw' }}>
-                <img src="window.png" className="img-fluid" style={{ width: '60vw', marginLeft: '5vw', marginRight: '5vw' }}/>
+                <img src="/adalia-lee/media/window.png" alt="window" className="img-fluid" style={{ width: '60vw', marginLeft: '5vw', marginRight: '5vw' }}/>
             </div>
 
             <p className="g-subtitle" style={{paddingTop: '124px'}}>
@@ -37,26 +37,26 @@ function GraphicDesign() {
             </p>
             <div style={{ display: 'flex' }}>
                 <div style={{ width: '45vw', marginLeft: '5vw', marginRight: '5vw' }}>
-                    <img src="bike.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/bike.png" alt="bike" className="img-fluid" />
                 </div>
                 <div style={{ width: '45vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="desk.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/desk.png" alt="desk" className="img-fluid" />
                 </div>
             </div>
             <div style={{ display: 'flex', marginTop: '5vw' }}>
                 <div style={{ width: '45vw', marginLeft: '5vw', marginRight: '5vw' }}>
-                    <img src="train.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/train.png" alt="train" className="img-fluid" />
                 </div>
                 <div style={{ width: '45vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="flowers.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/flowers.png" alt="flowers" className="img-fluid" />
                 </div>
             </div>
             <div style={{ display: 'flex', marginTop: '5vw' }}>
                 <div style={{ width: '45vw', marginLeft: '5vw', marginRight: '5vw' }}>
-                    <img src="cafe.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/cafe.png" alt="cafe" className="img-fluid" />
                 </div>
                 <div style={{ width: '45vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="drink.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/drink.png" alt="drink" className="img-fluid" />
                 </div>
             </div>
 
@@ -68,19 +68,19 @@ function GraphicDesign() {
             </p>
             <div style={{ display: 'flex' }}>
                 <div style={{ width: '75vw', marginLeft: '5vw', marginRight: '5vw' }}>
-                    <img src="flyer.png" className="img-fluid" style={{marginBottom: '5vw'}}/>
+                    <img src="/adalia-lee/media/flyer.png" alt="flyer" className="img-fluid" style={{marginBottom: '5vw'}}/>
                 </div>
                 <div style={{ width: '45vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="room.png" className="img-fluid" style={{marginBottom: '5vw'}} />
-                    <img src="fruit.png" className="img-fluid" />
+                    <img src="/adalia-lee/media/room.png" alt="room" className="img-fluid" style={{marginBottom: '5vw'}} />
+                    <img src="/adalia-lee/media/fruit.png" alt="fruit" className="img-fluid" />
                 </div>
             </div>
             <div style={{ display: 'flex' }}>
                 <div style={{ width: '45vw', marginLeft: '5vw', marginRight: '5vw', height: '100%' }}>
-                    <img src="running.png" className="img-fluid" style={{marginBottom: '5vw'}} />
+                    <img src="/adalia-lee/media/running.png" alt="running" className="img-fluid" style={{marginBottom: '5vw'}} />
                 </div>
                 <div style={{ width: '75vw', marginRight: '5vw' }}>
-                    <img src="actor.png" className="img-fluid" style={{marginBottom: '5vw'}} />
+                    <img src="/adalia-lee/media/actor.png" alt="actor" className="img-fluid" style={{marginBottom: '5vw'}} />
                 </div>
             </div>
         </div>     

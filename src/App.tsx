@@ -1,4 +1,3 @@
-// App.jsx
 import React, { useEffect } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Portfolio/Home';
