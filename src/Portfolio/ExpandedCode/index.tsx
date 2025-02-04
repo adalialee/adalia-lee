@@ -44,7 +44,7 @@ function ExpandedCode() {
                 <div style={{ 
                     width: project.video === "cat.mp4" ? "30%" : (project.video === "otic.mp4" ? "80%" : "30%"), 
                     margin: "auto", 
-                    marginBottom: "124px" 
+                    marginBottom: "124px"
                 }}>
                     <video controls style={{ width: "100%" }}>
                     <source src={`/adalia-lee/media/${project.video}`} type="video/mp4" />

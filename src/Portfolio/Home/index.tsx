@@ -16,7 +16,7 @@ function Home() {
                 <div className="col-12 col-lg-6 intro-text">
                     <div className="intro-content">
                         <p id="title">Hi, I’m Adalia!</p>
-                        <p id="intro-text">I’m a second-year Computer Science and Design student with a concentration in Interaction Design at Northeastern University.</p>
+                        <p id="intro-text">I’m a third-year Computer Science and Design student concentrating in Interaction Design at Northeastern University.</p>
                     </div>
                 </div>
                 <p className="goal">
