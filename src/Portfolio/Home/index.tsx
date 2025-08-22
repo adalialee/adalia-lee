@@ -17,7 +17,7 @@ function Home() {
                             I’m a fourth-year Computer Science and Design student concentrating in Interaction Design at Northeastern University.
                         </h5>
                         <p className="disappearing-text">
-                            I have been gathering valuable experience in software development, full-stack web and app development, and product design. Ultimately, I want to solidify my career in CS and design because they give me the tools to design, develop, and implement meaningful solutions for people to use. I'm excited to show you my projects and interests - let's get started!
+                            I have been gathering valuable experience in software development, full-stack web and app development, and product design. Ultimately, I want to solidify my career in CS and design because they give me the tools to design, develop, and implement meaningful solutions for people to use. I had a lot of fun designing and coding this website from scratch - I hope you enjoy exploring my projects and interests!
                         </p>
                     </div>
                 </div>
