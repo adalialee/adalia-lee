@@ -16,62 +16,46 @@ function ExpandedProject() {
     }
 
     const projectContent = project.subtitles.map((subtitle, index) => (
-        <div key={index}>
+        <div key={index} className="e-content">
             <div className="e-subtitle">
-                <p>{subtitle}</p>
-                <hr
-                    style={{
-                        height: "2px",
-                        opacity: "1",
-                        backgroundColor: "#9FB9F2",
-                        border: "none",
-                        marginTop: "16px",
-                    }}
-                />
+                <h3>{subtitle}</h3>
+                <div className="separator">
+                    <hr className="line" />
+                </div>
             </div>
-            {Array.isArray(project.images[index]) ? (
-                (project.images[index] as string[]).map((nestedImg, nestedIndex) => (
+            <div className="e-img-text">
+                {Array.isArray(project.images[index]) ? (
+                    <div className="e-nested-imgs">
+                        {(project.images[index] as string[]).map((nestedImg, nestedIndex) => (
+                            <img
+                                key={`${index}-${nestedIndex}`}
+                                src={nestedImg}
+                                className="img-fluid e-nested-img"
+                                alt={`project ${index}-${nestedIndex}`}
+                                loading="lazy"
+                            />
+                        ))}
+                    </div>
+                ) : (
                     <img
-                        key={`${index}-${nestedIndex}`}
-                        src={nestedImg}
-                        className="img-fluid"
-                        alt={`project ${index}-${nestedIndex}`}
-                        style={{
-                            width: "100%",
-                            height: "auto",
-                            objectFit: "cover",
-                            marginBottom: "124px",
-                        }}
+                        src={project.images[index] as string}
+                        className="img-fluid e-img"
+                        alt={`project ${index}`}
+                        loading="lazy"
                     />
-                ))
-            ) : (
-                <img
-                    src={project.images[index] as string}
-                    className="img-fluid"
-                    alt={`project ${index}`}
-                    style={{
-                        width: "100%",
-                        height: "auto",
-                        objectFit: "cover",
-                        marginBottom: "36px",
-                    }}
-                />
-            )}
-            <div className="e-summary" style={{ textAlign: "left" }}>
+                )}
                 <p>{project.descriptions[index]}</p>
             </div>
         </div>
     ));
 
     return (
-        <div className="all">
-            <div className="e-header" style={{ paddingTop: "48px" }}>
-                <p>{project.title}</p>
+        <div className="section">
+            <h1 className="p-header">{project.title}</h1>
+            <p className="e-intro">{project.summary}</p>
+            <div className="e-all">
+                {projectContent}
             </div>
-            <div className="e-summary">
-                <p>{project.summary}</p>
-            </div>
-            {projectContent}
         </div>
     );
 }

@@ -1,4 +1,154 @@
-.App {
+#root {
+  margin: 0 auto;
+}
+
+.app-container {
+  position: relative;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Global colors */
+:root {
+  --primary-dark: #6A8FE1;
+  --primary-medium: #9FB9F2;
+  --primary-light: #DFE9FF;
+  --secondary-dark: #AA6AE1;
+  --secondary-medium: #C69FF2;
+  --secondary-light: #EDDFFF;
+  /* --secondary-dark: #FFD75D;
+  --secondary-medium: #FFE9A4;
+  --secondary-light: #FFF2CA;
+  --accent-dark: #FFA79B;
+  --accent-medium: #FFC5BD;
+  --accent-light: #FFE1DD; */
+}
+
+/* Global typography */
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.75rem;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.125rem;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.25rem;
+  margin: 0;
+}
+
+h5 {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 1.875rem;
+  margin: 0;
+}
+
+.subtitle-1 {
+  font-family: "PT Sans Caption";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 650;
+  line-height: 1.688rem;
+  margin: 0;
+}
+
+.subtitle-2 {
+  font-family: "PT Sans Caption";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.688rem;
+  margin: 0;
+}
+
+p {
+  font-family: "PT Sans Caption";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+/* Global section styling */
+.section {
+  padding: 6rem 12rem;
+}
+
+@media (max-width:86rem) {
+  .section {
+    padding: 6rem;
+  }
+}
+
+@media (max-width:68rem) {
+  .section {
+    padding: 5rem;
+  }
+}
+
+@media (max-width:60rem) {
+  .section {
+    padding: 4rem;
+  }
+}
+
+@media (max-width:48rem) {
+  .section {
+    padding: 3rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 2.15rem;
+    line-height: 3.225rem;
+  }
+}
+
+@media (max-width:24rem) {
+  .section {
+    padding: 2rem;
+  }
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,9 +185,9 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
-.horizontal-list {
+/* .horizontal-list {
   list-style-type: none;
   display: flex;
   padding: 0px;
@@ -68,4 +218,4 @@
   font-style: normal;
   font-weight: 400;
   color: black;
-}
+} */

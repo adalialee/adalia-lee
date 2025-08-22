@@ -15,43 +15,44 @@ function ExpandedCode() {
     }
 
     const projectContent = project.subtitles.map((subtitle, index) => (
-        <div key={index}>
+        <div key={index} className="e-content">
             <div className="e-subtitle">
-                <p>{subtitle}</p>
-                {<hr style={{ height: "2px", opacity: "1", backgroundColor: "#9FB9F2", border: "none", marginTop: "16px" }} />}
+                <h3>{subtitle}</h3>
+                <div className="separator">
+                    <hr className="line" />
+                </div>
             </div>
-            <img src={project.images[index]} className="max-width img-fluid" style={{objectFit: "none"}} alt="project" />
-            <div className="e-summary" style={{textAlign: "left"}}>
+            <div className="e-img-text">
+                <img src={project.images[index]} className="img-fluid" alt="project" loading="lazy" />
                 <p>{project.descriptions[index]}</p>
             </div>
         </div>
     ));
 
     return (
-        <div className="all">
-            <div className="e-header" style={{paddingTop: "48px"}}>
-                <p>{project.title}</p>
-            </div>
-            <div className="e-summary">
+        <div className="section">
+            <h1 className="p-header">{project.title}</h1>
+            <div className="e-summaries">
                 <p>{project.summary}</p>
                 <p>
                     Here's the{" "}
-                    <a href={project.link} style={{color: "#6A8FE1"}}>link</a> to
+                    <a href={project.link} style={{color: "var(--primary-dark)"}}>link</a> to
                     {project["link-description"]}
                 </p>
             </div>
             {project.video && (
                 <div style={{ 
-                    width: project.video === "cat.mp4" ? "30%" : (project.video === "otic.mp4" ? "80%" : "30%"), 
-                    margin: "auto", 
-                    marginBottom: "124px"
+                    width: project.video === "cat.mp4" ? "30%" : (project.video === "new-otic.mp4" ? "80%" : "30%"), 
+                    margin: "auto"
                 }}>
-                    <video controls style={{ width: "100%" }}>
-                    <source src={`/adalia-lee/media/${project.video}`} type="video/mp4" />
+                    <video controls preload="metadata" style={{ width: "100%", height: "auto", maxWidth: "100%", display: "block" }}>
+                        <source src={`/adalia-lee/media/${project.video}`} type="video/mp4" />
                     </video>
                 </div>
             )}
-            {projectContent}
+            <div className="e-all">
+                {projectContent}
+            </div>
         </div>
     );
 }

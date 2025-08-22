@@ -1,12 +1,13 @@
 [
     {
         "id": "Open-RAN-Co-Op",
-        "title": "Open RAN Website Design and Automation Co-Op",
-        "role": "Co-Op for the Institute for the Wireless Internet of Things (WIoT), a hub for developing and testing next-generation wireless networks based on Open RAN",
-        "timeline": "July - December 2024",
+        "title": "Open6G OTIC Website",
+        "role": "Open RAN Website Design and Automation Co-Op for the Institute for the Wireless Internet of Things (WIoT), a hub for developing and testing next-generation wireless networks based on Open RAN",
+        "timeline": "July 2024 - December 2024",
         "overview": [
-            "Designed and developed public-facing and private client and team portal websites to showcase, track, and manage Open-RAN equipment-testing services",
-            "Led the end-to-end development process including user research, style guide and component library creation, wireframing, user testing (with companies like NVIDIA, Keysight Technologies, and Rakuten), coding, and deployment"
+            "Designed a public-facing website showcasing the company’s mission, services, achievements, etc. to expand customer reach and strengthen credibility",
+            "Built a portal featuring customer and administrative views to provide a unified interface which tracks and manages the results, documentation, and resources of tests performed on customer assets",
+            "Drove the end-to-end development process of user research, branding, UI design, user testing (with companies such as NVIDIA, Keysight Technologies, and Rakuten), coding, and deployment for the website and portal"
         ],
         "tags": [
             "UI/UX Design",
@@ -27,7 +28,7 @@
             "Postman"
         ],
         "image": "open6g.png",
-        "summary": "During my co-op at the Institute for the Wireless Internet of Things (WIoT), I designed and developed public-facing and private client and team portal websites to showcase, track, and manage hardware and software testing services. I led the end-to-end development process including user research, style guide and component library creation, wireframing, user testing (with companies like NVIDIA, Keysight Technologies, and Rakuten), coding, and deployment. Because I was the first co-op student to work on these projects and didn't have any direct team members besides my two supervisors, I created centralized research and design docs, made multiple iterations of designs, and gathered feedback from various perspectives.",
+        "summary": "During my co-op at the Institute for the Wireless Internet of Things (WIoT), I designed a public-facing website showcasing the company’s mission, services, achievements, etc. to expand customer reach and strengthen credibility. Additionally, I built a portal featuring customer and administrative views to provide a unified interface which tracks and manages the results, documentation, and resources of tests performed on customer assets. For the website and portal, I drove the end-to-end development process of user research, branding, UI design, user testing (with companies such as NVIDIA, Keysight Technologies, and Rakuten), coding, and deployment.",
         "subtitles": [
             "Style Guide: Colors and Typography",
             "Component Library",
@@ -45,17 +46,17 @@
             ]
         ],
         "descriptions": [
-            "The organization within the WIoT that I worked for is called the Open6G OTIC, and when I joined them there wasn't much existing branding. After carefully getting an idea of what my supervisors were looking for, I created 10+ variations each of typography hierarchies and color schemes, then reached out to others in the organization for their feedback to ensure the style guide effectively reflected the Open6G OTIC's values and work.",
+            "The organization within the WIoT that I worked for is called the Open6G OTIC, and when I joined there wasn't much existing branding. After carefully getting an idea of what my supervisors were looking for, I created 10+ variations each of typography hierarchies and color schemes, then reached out to others in the organization for their feedback to ensure the style guide effectively reflected the Open6G OTIC's values and work.",
             "I love putting together component libraries, especially testing multi-state elements. This step is particularly exciting to me because of how interactive it is, and it signifies I'm ready to start exploring and piecing everything together in the wireframing phase of the design process.",
             "This isn't even a quarter of the sketches I made for the public-facing website and private client and administrative portals! I broke these projects into sections: \"Home\", \"About Us\", and \"Services\" for the public-facing site, client portal, and administrative portal.",
-            "(The last 2 wireframes in this set are from the private portals.) I made a set of low-fidelity wireframes, then a set of high-fidelity wireframes. Through extensive user-testing with people from within and outside of the organization, I gained valuable insights, such as the most intuitive workflows, the most relevant information to highlight, and the best information hierarchies. I took notes that I organized into a comprehensive affinity diagrams, then implemented their combined feedback into more iterations."
+            "In this sample of wireframes, the first are from the website, and the last two are from the portal. I made a set of low-fidelity wireframes, then a set of high-fidelity wireframes. Through extensive user-testing with people from within and outside of the organization, I gained valuable insights, such as the most intuitive workflows, the most relevant information to highlight, and the best information hierarchies. I took notes that I organized into a comprehensive affinity diagrams, then implemented their combined feedback into more iterations."
         ]
     },
     {
         "id": "Kigumi-Group-Website",
         "title": "Kigumi Group Website",
         "role": "UI/UX Design Intern for the Kigumi Group, an Asia-based digital literacy organization",
-        "timeline": "January - March 2024",
+        "timeline": "January 2024 - March 2024",
         "overview": [
             "Brought organization to the design process by establishing the design system with the style guide and component library",
             "Created wireframes and redesigned the website that hosts the organization's digital literacy trainings"
@@ -81,7 +82,7 @@
             "/adalia-lee/media/k-wireframes.png"
         ],
         "descriptions": [
-            "After onboarding, my manager told me she had a functioning website quickly put together, so it lacked a design system and she was leaning towards having the entire website redesigned. I made a small adjustment to the brand color, then set the color and typography styles in Figma.",
+            "After onboarding, my supervisor told me she had a functioning website quickly put together, so it lacked a design system and she was leaning towards having the entire website redesigned. I made a small adjustment to the brand color, then set the color and typography styles in Figma.",
             "As a highly detail-oriented person, developing the component library is something that brings me a lot of joy and satisfaction. I didn’t have too many elements to make, so I created a more advanced dropdown menu. I started by setting the hover and pressed states in the prototype, then combined the elements. This dropdown will be used to switch between languages.",
             "Based on my design discussions with my supervisor and the documentation I recorded about her preferences, I created several sketches for the home, training, and account workflows.",
             "My supervisor and I went over my sketches, and I added comments along the way to help myself translate the designs onto Figma. Later on, the only minor tweak we made was adding some more information onto an individual training page when mocking it up."
@@ -91,11 +92,11 @@
         "id": "Breaktime-Website",
         "title": "Breaktime Website",
         "role": "Product Designer at Code4Community NEU designing for Breaktime, a Boston-based nonprofit organization that aims to break the homelessness cycle",
-        "timeline": "September 2024  - Present",
+        "timeline": "September 2024  - April 2025",
         "overview": [
-            "Designing for a timesheet-recording website used by Breaktime, a Boston-based nonprofit organization that provides young adults with the employment support they need to establish housing security",
-            "Adding new features to enhance the timesheet-recording user experience so that supervisors can better serve homeless young adults by gauging their workplace performance",
-            "Updating the component library, making wireframes, and implementing client feedback"
+            "Designed for a timesheet-recording website used by Breaktime, a Boston-based nonprofit organization that provides young adults with the employment support they need to establish housing security",
+            "Added new features to enhance the timesheet-recording user experience so that supervisors can better serve homeless young adults by gauging their workplace performance",
+            "Updated the component library, making wireframes, and implementing client feedback"
         ],
         "tags": [
             "UI/UX Design",
@@ -125,7 +126,7 @@
         "id": "Partnering-Lab-Website",
         "title": "Partnering Lab Website",
         "role": "Part-Time Research Assistant (Design) for the Partnering Lab, a Boston-based dance research organization",
-        "timeline": "October - December 2023",
+        "timeline": "October 2023 - December 2023",
         "overview": [
             "Launched the logo and website redesign processes to more accurately reflect the dance research organization's core values through leveraging skills in identity and brand design, graphic design, and more",
             "Created wireframes and a component library for the new website to showcase their work"
@@ -166,7 +167,7 @@
         "id": "RapidRoute-Mobile-App-Prototype",
         "title": "RapidRoute Mobile App Prototype",
         "role": "Student in Interaction Design Principles Course at NEU",
-        "timeline": "October - December 2023",
+        "timeline": "October 2023 - December 2023",
         "overview": [
             "Collaborated with a team to create a high-fidelity prototype of a mobile application that improves the user experience of riding the MBTA train by suggesting optimal routes based on selected preferences",
             "Designed features that allow users to plan and save routes in advance, send users notifications about their current best options and delays, and displays nearby options with timing details"
