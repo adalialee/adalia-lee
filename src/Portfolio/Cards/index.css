@@ -1,32 +1,76 @@
-.custom {
-    background-color: #6A8FE1;
-    font-family: "proxima-nova", sans-serif;
-    font-style: normal;
-    margin: 1em;
-    border-radius: 1em;
+.cards {
+    padding: 6rem 12rem;
+    gap: 2rem;
+    background-color: var(--primary-light);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    background-color: var(--primary-dark);
+    border-radius: 1rem;
+    border: none;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .section-title {
-    font-family: "proxima-nova", sans-serif;
-    font-weight: 500;
-    font-size: 1.875em;
     color: white;
     text-align: center;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
 }
 
 .bottom-text {
     text-align: right;
-    font-size: 1em;
+    font-size: 16px;
     font-weight: 500;
     color: white;
-    padding-bottom: 0.5em;
 }
 
 .navigate {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: flex-end;
-    padding-right: 1em;
+}
+
+@media (max-width:86rem) {
+    .cards {
+        padding: 4.5rem 7.5rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:68rem) {
+    .cards {
+        padding: 5rem;
+    }
+}
+
+@media (max-width:60rem) {
+    .cards {
+        padding: 4rem;
+    }
+}
+
+@media (max-width:48rem) {
+    .cards {
+        padding: 3rem;
+    }
+}
+
+@media (max-width:40rem) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width:24rem) {
+    .cards {
+        padding: 2rem;
+    }
 }

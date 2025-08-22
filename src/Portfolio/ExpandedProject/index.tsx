@@ -4,9 +4,10 @@ import { productDesign } from "../Database";
 import "./index.css";
 
 function ExpandedProject() {
-    useEffect(()=>{
+    useEffect(() => {
         window.scrollTo(0, 0);
-      },[])
+    }, []);
+
     const { projectId } = useParams();
     const project = productDesign.find((project) => project.id === projectId);
 
@@ -15,27 +16,46 @@ function ExpandedProject() {
     }
 
     const projectContent = project.subtitles.map((subtitle, index) => (
-        <div key={index}>
+        <div key={index} className="e-content">
             <div className="e-subtitle">
-                <p>{subtitle}</p>
-                {<hr style={{ height: "0.125em", opacity: "1", backgroundColor: "#9FB9F2", border: "none", marginTop: "1em" }} />}
+                <h3>{subtitle}</h3>
+                <div className="separator">
+                    <hr className="line" />
+                </div>
             </div>
-            <img src={project.images[index]} className="img-fluid" />
-            <div className="e-summary" style={{textAlign: "left"}}>
+            <div className="e-img-text">
+                {Array.isArray(project.images[index]) ? (
+                    <div className="e-nested-imgs">
+                        {(project.images[index] as string[]).map((nestedImg, nestedIndex) => (
+                            <img
+                                key={`${index}-${nestedIndex}`}
+                                src={nestedImg}
+                                className="img-fluid e-nested-img"
+                                alt={`project ${index}-${nestedIndex}`}
+                                loading="lazy"
+                            />
+                        ))}
+                    </div>
+                ) : (
+                    <img
+                        src={project.images[index] as string}
+                        className="img-fluid e-img"
+                        alt={`project ${index}`}
+                        loading="lazy"
+                    />
+                )}
                 <p>{project.descriptions[index]}</p>
             </div>
         </div>
     ));
 
     return (
-        <div className="all">
-            <div className="e-header" style={{paddingTop: "3em"}}>
-                <p>{project.title}</p>
+        <div className="section">
+            <h1 className="p-header">{project.title}</h1>
+            <p className="e-intro">{project.summary}</p>
+            <div className="e-all">
+                {projectContent}
             </div>
-            <div className="e-summary">
-                <p>{project.summary}</p>
-            </div>
-          {projectContent}
         </div>
     );
 }

@@ -1,0 +1,8 @@
+.mail {
+    text-decoration: none;
+}
+
+.mail:hover {
+    text-decoration: underline;
+    color: var(--color-primary-dark);
+}

@@ -1,81 +1,82 @@
 .p-header {
-    font-family: "proxima-nova", sans-serif;
-    font-style: normal;
-    font-size: 3em;
-    font-weight: 600;
     text-align: center;
-    margin-top: 7.75em;
-    margin-bottom: 2.25em;
-    color: #6A8FE1;
 }
 
-.p-reason {
-    margin-left: 0.625em;
-    margin-right: 0.625em;
-    font-family: "proxima-nova", sans-serif;
-    font-style: normal;
-    font-size: 1.25em;
-    margin-bottom: 7.75em;
-    text-align: center;
-    font-weight: 400;
+.p-intro {
+    padding: 3.5rem 0;
+}
+
+.p-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
 }
 
 .p-experience {
-    font-family: "proxima-nova", sans-serif;
-    font-style: normal;
-    border-radius: 1em;
-    box-shadow: 0em 0.25em 0.25em 0.25em rgba(106, 143, 225, 0.25);
-    padding: 3.5em;
-    margin: 10em;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 4px 4px rgba(106, 143, 225, 0.25);
+    padding: 3.5rem;
+    width: 100%;
 }
 
-.p-title {
-    font-size: 1.875em;
-    font-weight: 600;
+.p-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    padding-bottom: 3rem;
 }
 
-.p-subtitle {
-    font-size: 1.125em;
-    font-weight: 700;
-    margin-bottom: 0.5em;
-}
-
-.p-body {
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.5em; 
+.p-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .p-mini-section {
-    margin-bottom: 2em;
-}
-
-.p-horizontal {
     display: flex;
-    flex-direction: row;
-    @media (max-width: 68em) {
-        flex-direction: column;
-    }
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .p-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1rem;
 }
 
 .p-tag {
-    background-color: #DFE9FF;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.5em;
-    padding-bottom: .5em;
-    border-radius: 1.5em;
+    background-color: var(--secondary-light);
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
 }
 
-.p-image-container {
-    width: 50%;
-    @media (max-width: 68em) {
-        width: 100%;
+.overview-later {
+    display: none;
+}
+
+@media (max-width: 90rem) {
+    .p-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .overview-first {
+        display: none;
+    }
+
+    .overview-later {
+        display: block;
+    }
+}
+
+@media (max-width: 68rem) {
+    .p-experience {
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 48rem) {
+    .p-experience {
+        padding: 2rem;
     }
 }
