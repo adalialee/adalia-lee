@@ -12,7 +12,7 @@ function Contact() {
       <h1 className="p-header">Let's Connect!</h1>
       <div className="c-intro">
         <p>
-          Thank you for being here on my portfolio website - I had lots of fun designing and coding it from scratch. I hope you enjoyed looking through it and learning about me.
+          Thank you for being here on my portfolio website - I had lots of fun designing and coding it from scratch. I hope you've been enjoying looking through it and learning about me!
         </p>
         <p>
           Building on my interests and experiences across academia, internships, and extracurriculars, I am now seeking a full-time role where I can contribute at a greater scale and grow as both a software developer and a designer. After graduating in May of 2026, I am hoping to work in the Bay Area, California or the Greater Boston Area, Massachusetts.
