@@ -22,7 +22,7 @@ function Home() {
                     </div>
                 </div>
                 <p className="reappearing-text">
-                    I have been gathering valuable experience in software development, full-stack web and app development, and product design. Ultimately, I want to solidify my career in CS and design because they give me the tools to design, develop, and implement meaningful solutions for people to use. I had a lot of fun designing and coding this website from scratch - I hope you enjoy exploring my projects and interests!
+                    I have been gathering valuable experience in software development, full-stack web and app development, and product design. Ultimately, I want to solidify my career in CS and design because they give me the tools to design, develop, and implement meaningful solutions for people to use. I'm excited to walk you through my experiences and interests - let's get started!
                 </p>
             </div>
             <Cards/>
