@@ -11,7 +11,7 @@ function SoftwareDevelopment() {
         <div className="section">
             <h1 className="p-header">Software Development</h1>
             <p className="p-intro">
-                I strive to design, develop, and implement meaningful solutions for clients to use. Software engineering gives me the tools to execute my ideas, and I can leverage my background in UI/UX design and user research to build impactful products.
+                I strive to design, develop, and implement meaningful solutions for people to use. Software development gives me the tools to execute my ideas, and I can leverage my background in UI/UX design and user research to build impactful products.
             </p>
             <div className="p-list">
                 {softwareDevelopment.map((experience, index) => (
